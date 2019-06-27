@@ -1,6 +1,6 @@
 # AI4All_Genomics
 
-AI4All@Princeton is a summer camp that aims to promote diversity in computer science by teaching AI to young students of diverse backgrounds.  In this module, we will be analyzing our genomic diversity by exploring natural genomic variation between world populations.
+AI4All@Princeton is a summer camp that aims to promote diversity in computer science by teaching AI to young students of diverse backgrounds (https://ai4all.princeton.edu).  In this module, we will be analyzing our genomic diversity by exploring natural genomic variation between world populations.
 
 Useful Links:
 - International Gennome Sample Resource: Genohttp://www.internationalgenome.org/home
