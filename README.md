@@ -13,6 +13,7 @@ Useful Links:
 To Do:
 - investigate ways to subset data
     - I'm asking John Storey's group - they seem to also use LD as a filter & suggested some useful software for handling data)
+    - https://software.broadinstitute.org/gatk/documentation/tooldocs/4.0.0.0/org_broadinstitute_hellbender_tools_walkers_variantutils_SelectVariants.php
 - double check student histories to get an intuition for their academic level
 - plan (and test) which ML algorithms to introduce to students (clustering, standard prediction, etc)
 - revisit calendar to edit the syllabus
