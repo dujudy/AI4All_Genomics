@@ -2,7 +2,7 @@
 
 AI4All@Princeton is a summer camp that aims to promote diversity in computer science by teaching AI to young students of diverse backgrounds (https://ai4all.princeton.edu).  In this module, we will be investigating our genomic diversity by exploring natural genomic variation between world populations.
 
-Useful Links:
+Relevant Links:
 - IGSR home: Genohttp://www.internationalgenome.org/home
 - Phase 3 1000 Genomes Results: https://www.nature.com/articles/nature15393#abstract
 - Phase 3 1000 Genomes Merged Data: https://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/
@@ -10,9 +10,11 @@ Useful Links:
   - *** see gwas_sv_ld_filt_af.txt 
   
 Data Preprocessing
-- Run GATK software: https://software.broadinstitute.org/gatk/documentation/tooldocs/4.0.0.0/org_broadinstitute_hellbender_tools_walkers_variantutils_SelectVariants.php
+- Run GATK software to subset SNPs: https://software.broadinstitute.org/gatk/documentation/tooldocs/4.0.0.0/org_broadinstitute_hellbender_tools_walkers_variantutils_SelectVariants.php
   - run ./gatk/gatk SelectVariants -V input.vcf -O output.vcf --keep-ids gwas_sv_ld_RSIDs.list 
-  - example output.vcf: LDSubset.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes_LDsubset.vcf --keep-ids gwas_sv_ld_ 
+    - example output.vcf: chrX_filtered.txt
+ - concatenate vcf files using vcf-tools
+  - https://vcftools.github.io/man_latest.html
 
 To Do:
 - merge data
