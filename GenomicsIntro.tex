@@ -13,82 +13,38 @@
 
 \begin{document}
 
-\section{?All models are wrong. Some models are useful.? (George Box)}
-\subsection{}
+\section{?All models are wrong. Some models are useful. (George Box)}
 
-Events will be denoted by \mathcal{F}.
-Simpson's Paradox - slide 17
+\section{Introduction to Genomics}
+\subsection{What is DNA?}
+% first concepts to define: DNA, gene, expression
+% what genes do
 
-\subsubsection{Chain Rule}
-Slide 20 : Proof of chain rule
-joint probability = join probability * 1, where 1 = $\frac{P(Y)}{(P(Y)}$. Sub joint / marginal with conditional probability.
+\subsection{Common Misconceptions}
 
-\subsubsection{Marginalization}
-Slide 22: Proof
-sub joint as marginal * conditional. Note that sum over sample space is 1. 
-
-\subsubsection{Bayes Rule}
-- powerful bc can flip conditional
-
-\subsection{Revisit}
-Slide 29
-
-\subsection{Conditional Independence}
-Slide 30
-Independence and factorization of joint into marginals is bijective. In this case, it factors into a conditional and a marginal.
+DNA does not define everything about you.
+- which genes are "turned on/off"
+- different upbringings and environments
 
 
-The density of a point x is proportional to the negative exponentiated
-half distance to µ scaled by ?
-2
-.
+\subsection{(Define Jargon) Genomic Variation}
 
-\subsection{}
-Slide 34
-Treat function $f(\cdot)$ as random variable. The expected value of a function is a sum weighted by a probability distribution.
+\subsection{Why study Genomic Variation?}
+- Important for health and precision medicine
+- Catalogs different ways in which people's genomes are healthy.
+- When looking for disease-related genomic variants, we can use this information to rule out healthy variants.
 
-Convex combination bc each nonnegative.
+\subsection{Natural Selection}
 
-\subsection{}
-Slide 40
-Parameters, Latent variables, Observed variables:
-Size: O(p), O(n), nxp
+Thus, a variant that occurs naturally in a population likely doesn't cause disease symptoms.
 
-\subsection{Log likelihood}
-The log likelihood is the objective in an optimization problem.
+\subsection{(Define Jargon) SNPs}
+Single Nucleotide Polymorphism
+poly- many
+morph - 
+Why SNP data ?
 
-\subsection{MLE is consistent}
-Slide 46
-Another word for unbiased. Converges to true parameter as n goes to infinity
+\subsection{Data (vcf file)}
 
-
-\subsection{}
-Slide 47
-When the log likelihood is convex, we can:
-Take the derivative of the log likelihood function with respect to ?
-Set this derivative to zero
-Solve for ?.
-
-Slide 55
-Words in documents - Multinomial
-
-Slide 57
-Other models for variance, skew, kurtosis with base distr. as Poisson
-Counting across time.
-
-Memorize 
-0.6827
-p(µ ? 2? ? x ? µ + 2?) ? 0.9545
-p(µ ? 3? ? x ? µ + 3?) ? 0.9973
-
-Machine Learning: A Probabilistic Approach (Chapter 2)
-Michael Lavine, Introduction to Statistical Thought (an introductory
-statistical textbook with plenty of R examples, and it?s online too)
-Chris Bishop, Pattern Recognition and Machine Learning (Ch 1 & 2)
-(video) Sam Roweis: Machine Learning, Probability and Graphical
-Models, Part 1
-(video) Michael Jordan: Bayesian or Frequentist: Which Are You?
-wikipedia (much of the material in today?s lecture is available on
-wikipedia)
 
 \end{document}
