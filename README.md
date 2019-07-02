@@ -20,6 +20,7 @@ To Do:
 - plan (and test) which ML algorithms to introduce to students (clustering, standard prediction, etc)
 - revisit calendar to edit the syllabus
 - brainstorm intro slides to SNPs
+- explore with python and benchmark runtimes
 
 Files:
 - 1000genomes_dataExploration.ipynb: preliminary exploration of 1000 Genomes data (PCA, SVM, data cleanup and filtering)
