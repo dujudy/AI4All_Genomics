@@ -16,8 +16,11 @@ Data Preprocessing
  - concatenate vcf files using vcf-tools
   - https://vcftools.github.io/man_latest.html
 
+Input Data:
+ - "chr01-22_filtered.vcf"
+  - to download: https://drive.google.com/drive/folders/1O7cRyGbEHrkjiCAkaKODN0V2HYTDXjss
+
 To Do:
-- merge data
 - double check student histories to get an intuition for their academic level
 - plan (and test) which ML algorithms to introduce to students (clustering, standard prediction, etc)
 - revisit calendar to edit the syllabus
