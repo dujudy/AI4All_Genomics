@@ -21,9 +21,11 @@ Input Data:
   - to download: https://drive.google.com/drive/folders/1O7cRyGbEHrkjiCAkaKODN0V2HYTDXjss
 
 To Do:
-- double check student histories to get an intuition for their academic level
+- Outline first two weeks
+- Implement first two weeks notebooks (goals)
+- start first 3 mini lectures
+
 - plan (and test) which ML algorithms to introduce to students (clustering, standard prediction, etc)
-- revisit calendar to edit the syllabus
 - brainstorm intro slides to SNPs
 - explore with python and benchmark runtimes
 
